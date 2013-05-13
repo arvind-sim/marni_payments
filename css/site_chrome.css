@@ -1,0 +1,146 @@
+body {background:white; margin: 0px}
+div.main div.header img.logo {float:top; margin: 5px 0 0 5px;}
+div.main div.header div.title {
+  float:right; 
+  margin: 65px 5px 5px 5px; 
+  font-family:Georgia, "Times New Roman", Times, serif; 
+  font-weight:bold;
+  color: #298636;
+  font-size:20px;
+}
+div.main div.field_container {
+  border: 1px solid #EAF8E3;
+  margin: 5px 5px 0px 5px;
+}
+
+div.main div.field_container div.field_options img{
+  margin: 50px 0 0 240px;
+  align: center;
+}
+
+div.main div.field_container p.success_title {
+  margin: 10px 0 0 10px;
+  font-family:Georgia, "Times New Roman", Times, serif; 
+  font-weight:bold;
+  color: #8CDD2D;
+  font-size:16px;
+  align: center;
+}
+
+div.main div.field_container p.failure_title {
+  margin: 10px 0 0 10px;
+  font-family:Georgia, "Times New Roman", Times, serif; 
+  font-weight:bold;
+  color: #F09E22;
+  font-size:16px;
+}
+div.main div.field_container p.title {
+margin: 10px 0 0 10px;
+font-family:Georgia, "Times New Roman", Times, serif; 
+font-weight:bold;
+color: #8CDD2D;
+font-size:16px;
+}
+
+div.main div.field_container div.field_options div.detail_field {
+  margin: 5px 0 0 5px;
+  float: left;
+}
+
+
+div.main div.field_container div.field_options div.detail_field p.sep {
+  border-top: 1px solid #EAF8E3;
+  width: 280px;
+  margin: 5px 0px -15px 0px;
+}
+
+
+div.main div.field_container div.field_options {
+  margin: 10px 0 0 10px;
+  width: 420px;
+  height: 310px;
+}
+
+div.main div.field_container div.detail_field p {font-weight: bold; font-size: 14px; float: left; width: 90px; margin: 0 0 0 0;}
+div.main div.field_container div.detail_field p.field {float:right; margin: 0 0 0 0; width: 320px; valign:top;}
+div.main div.field_container div.detail_field p.field input,select {
+font-size: 0.95em;
+padding: 1px;
+border: 1px solid #8CDD2D;
+height: 22px;
+margin: 0 0 0 0;
+/*border-top-color: #7C7C7C;
+border-bottom-color: #DDD;*/
+background: url("../images/input_bg.gif") 0 0 repeat-x;
+}
+
+div.main div.field_container div.detail_field p.field img {margin: 2px 120px 0 5px; float: right; visibility:hidden;}
+
+div.main div#footer {
+  float:right;
+  margin: -5px 0px 0 0;
+  height: 40px;
+}
+
+div.main div#footer p {color: #8CDD2D; font-size: 14px; font-weight:bold; margin: 10px 5px 10px 0;}
+
+div.main div.field_container div.error_strings{ 
+  font-size:14px; 
+  color:#C30C0A; 
+  background-color:#FEE7B3;
+  margin: -20px 5px 5px 5px;
+  border: 1px solid #DD3762;
+}
+
+div.main div.field_container div.detail_field p.field input.error {
+font-size: 0.95em;
+padding: 1px;
+border: 1px solid #DD3762;
+height: 22px;
+margin: 0 0 0 0;
+background-color:#FEE7B3;
+background: url("../images/input_bg_error.gif") 0 0 repeat-x;
+}
+
+
+div.main div#footer div.button_div {
+  width:80px;
+  float:right;
+  color: white;
+  height: 32px;
+  background-color: #78D508;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+}
+
+div.main div#footer div.button_div p {
+  color: white;
+  font-size: 14px;
+  font-weight:bold;
+  margin: 5px 0 0 20px;
+}
+
+div.main div#footer div.button_div img {
+  margin: -15px 0 0 35px;
+}
+
+div.main div#footer_close {
+  float:right;
+  margin: 25px 0px 0 0;
+}
+
+div.main div#footer_close div.button_div_close{
+  width:80px;
+  float:right;
+  color: white;
+  height: 32px;
+  background-color: black;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+}
+
+div.main div#footer_close div.button_div_close p {
+  font-size: 14px; 
+  font-weight:bold; 
+  margin: 5px 0 0 25px;
+}

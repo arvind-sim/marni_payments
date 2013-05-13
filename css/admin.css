@@ -1,0 +1,222 @@
+body.main
+{
+    background-color:#FFFFFF;/*f8ebd3*/
+}
+
+table.main {
+    background-color:#ffffff;
+    border-color:silver;
+}
+
+.line_hor {
+	border-bottom: 1px dotted Black;
+}
+
+.line_hor1 {
+	border-top: 1px dotted Black;
+}
+
+
+.tab_selected
+{
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	color: White;
+	background: #9D9D9D;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.tab_label {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	color: White;
+	background: silver;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+td.tdcontrol {
+    background-color:#e5e5e5;
+    font-family: verdana,arial,helvetica,trebuchet ms;
+    font-size : 11pt;
+    font-weight : normal;
+    color : #000000;
+}
+
+td.listheader {
+    background-color:#7d7d7d;
+    font-family: verdana,arial,helvetica,trebuchet ms;
+    font-size : 10pt;
+    font-weight : bold;
+    color : #ffffff;
+}
+
+table.control {
+    border-color:#b6b6b6;
+}
+
+table.list {
+    border-color:#000000;
+}
+
+table.listbody {
+    border-color:silver;
+}
+
+td.listbody {
+    background-color:#ffffe5;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 8pt;
+    font-weight : normal;
+    color : #000000;
+}
+
+.welcomemsg
+{
+		font-family: verdana,arial,helvetica,trebuchet ms;
+		font-size : small;
+		font-weight : normal;
+                color : #9D9D9D;
+		/*background-color:#FFFF66;*/
+                text-transform:none;
+                text-decoration:none;
+}
+
+.maintabtext
+{
+		font-family: verdana,arial,helvetica,trebuchet ms;
+		font-size : 10pt;
+		font-weight : normal;
+                color : #000000;
+		/*background-color:#FFFF66;*/
+                text-transform:none;
+                text-decoration:none;
+}
+
+.maintabtext:hover
+{
+		font-family: verdana,arial,helvetica,trebuchet ms;
+		font-size : 10pt;
+		font-weight : bold;
+                color : #ffffff;
+		/*background-color:#FFFF66;*/
+                text-transform:uppercase;
+                text-decoration:none;
+
+}
+
+.bodynavlink:hover
+{
+		font-family: verdana,arial,helvetica,trebuchet ms;
+		font-size : 10pt;
+		font-weight : bold;
+                color : #ff0000;
+		background-color:#FFFFFF;
+                text-transform:none;
+                text-decoration:none;
+
+}
+
+.bodynavlink
+{
+		font-family: verdana,arial,helvetica,trebuchet ms;
+		font-size : 10pt;
+		font-weight : bold;
+                color : #7d7d7d;
+		/*background-color:#FFFF66;*/
+                text-transform:none;
+                text-decoration:none;
+
+}
+
+.button
+{
+		font-family: verdana,arial,helvetica,trebuchet ms;
+		font-size : 10pt;
+		font-weight : normal;
+                color : #000000;
+		/*background-color:#FFFF66;*/
+                text-transform:none;
+                text-decoration:none;
+
+}
+
+.input
+{
+		font-family: verdana,arial,helvetica,trebuchet ms;
+		font-size : 10pt;
+		font-weight : normal;
+                color : #000000;
+
+}
+
+.error
+{
+		font-family: verdana,arial,helvetica,trebuchet ms;
+		font-size : 11pt;
+		font-weight : bold;
+                color : #ff0000;
+
+}
+
+.label
+{
+		font-family: verdana,arial,helvetica,trebuchet ms;
+		font-size : 10pt;
+		font-weight : bold;
+                color : #000000;
+
+}
+
+.update
+{
+		font-family: verdana,arial,helvetica,trebuchet ms;
+		font-size : 10pt;
+		font-weight : bold;
+                color : #ffffff;
+		background-color:#383f9c;
+
+}
+
+.bodylink:hover
+{
+		font-family: verdana,arial,helvetica,trebuchet ms;
+		font-size : 10pt;
+		font-weight : normal;
+                color : #000000;
+		background-color:#FFFFFF;
+                text-transform:none;
+                text-decoration:none;
+
+}
+
+.bodylink
+{
+		font-family: verdana,arial,helvetica,trebuchet ms;
+		font-size : 10pt;
+		font-weight : normal;
+                color : #ff0000;
+		/*background-color:#FFFF66;*/
+                text-transform:none;
+                text-decoration:none;
+
+}
+
+a.tab_text {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: large;
+	font-weight: normal;
+	text-decoration: none;
+	background-color:#FFFFFF;
+	color: #f47820;
+}
+
+a.tab_text:hover {
+	color: Black;
+	background-color:#FFFFFF;
+}
+
